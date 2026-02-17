@@ -45,7 +45,9 @@ defmodule PhoenixSignaling.MixProject do
       {:bandit, "~> 1.5"},
       {:boombox, github: "membraneframework/boombox"},
       {:membrane_webrtc_plugin, path: "#{__DIR__}/../..", override: true},
-      {:uuid, "~> 1.1"}
+      {:uuid, "~> 1.1"},
+      {:membrane_rtp_plugin, "~> 0.30.0", override: true},
+      {:vix, "~> 0.38"},
     ]
   end
 
